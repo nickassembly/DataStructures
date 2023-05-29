@@ -1,10 +1,7 @@
 ﻿
-using DataStructures.ADT;
-using System.Collections;
+// Inserting Items into Array
+// Shift everything
+// add to beginning
+// more complexity than just adding to the end
 
-Stack ts = new Stack();
-
-Pokemon squirtle = new Pokemon();
-
-
-
+// Array deletions
