@@ -2,19 +2,18 @@
 using DataStructures.ArrayMethods;
 using DataStructures.LinkedList;
 
-int[] array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
-//Console.WriteLine(ArrayMethods.LinearSearch(array, 5)); // true
 
 // LinkedList
-Node nodeA = new Node();
-nodeA.Data = 23421;
+LinkedList myLinkedList = new LinkedList();
+myLinkedList.InsertFirst(1);
+myLinkedList.InsertFirst(2);
+myLinkedList.InsertFirst(3);
+myLinkedList.InsertFirst(4);
 
-Node nodeB = new Node();
-nodeB.Data = 4522;
+myLinkedList.DeleteFirst();
+myLinkedList.DeleteFirst();
 
-Node nodeC = new Node();
-nodeC.Data = 1233;
+myLinkedList.InsertLast(546);
+myLinkedList.InsertLast(123);
 
-Node nodeD = new Node();
-nodeD.Data = 9872;
+myLinkedList.DisplayList();
