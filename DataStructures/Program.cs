@@ -1,6 +1,7 @@
 ﻿
 using DataStructures.ArrayMethods;
 using DataStructures.LinkedList;
+using DataStructures.Stack;
 
 
 // LinkedList
@@ -19,3 +20,20 @@ using DataStructures.LinkedList;
 //myLinkedList.DisplayList();
 
 
+//Stack stack = new Stack(10);
+
+//for(int i = 0; i < 3; i++)
+//{
+//    stack.Push("Item1");
+//    stack.Push("Item2");
+//    stack.Push("Item3");
+//}
+
+//stack.Pop();
+//stack.Peek();
+
+//while(!stack.isEmpty())
+//{
+//    var value = stack.Pop();
+//    Console.WriteLine(value);
+//}
