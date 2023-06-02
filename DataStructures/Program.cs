@@ -1,8 +1,8 @@
 ﻿
 using DataStructures.ArrayMethods;
 using DataStructures.LinkedList;
+using DataStructures.Queue;
 using DataStructures.Stack;
-
 
 // LinkedList
 //LinkedList myLinkedList = new LinkedList();
@@ -37,3 +37,14 @@ using DataStructures.Stack;
 //    var value = stack.Pop();
 //    Console.WriteLine(value);
 //}
+
+//Queue queue = new Queue(10);
+//queue.Enqueue(1);
+//queue.Enqueue(2);
+//queue.Enqueue(3);
+//queue.Enqueue(4);
+
+//queue.Dequeue();
+//queue.Dequeue();
+
+//queue.Peek();
