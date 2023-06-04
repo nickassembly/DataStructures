@@ -1,6 +1,7 @@
 ﻿
 using DataStructures.ArrayMethods;
 using DataStructures.BinarySearchTree;
+using DataStructures.HashTable;
 using DataStructures.LinkedList;
 using DataStructures.Queue;
 using DataStructures.Stack;
@@ -63,27 +64,40 @@ using DataStructures.Stack;
 
 //int value = 0;
 
-int[] intArray = new int[] { 6, 5, 1, 7, 2, 4 };
+//int[] intArray = new int[] { 6, 5, 1, 7, 2, 4 };
 
-Console.WriteLine(BubbleSort(intArray));
-int[] value = BubbleSort(intArray);
+//Console.WriteLine(BubbleSort(intArray));
+//int[] value = BubbleSort(intArray);
 
-int[] BubbleSort(int[] array)
-{
-    int temp = 0;
+//int[] BubbleSort(int[] array)
+//{
+//    int temp = 0;
 
-    for (int pointer = 0; pointer < array.Length; pointer++)
-    {
-        for (int sort = 0; sort < array.Length - 1; sort++)
-        {
-            if (array[sort] > array[sort + 1])
-            {
-                temp = array[sort + 1];
-                array[sort + 1] = array[sort];
-                array[sort] = temp;
-            }
-        }
-    }
+//    for (int pointer = 0; pointer < array.Length; pointer++)
+//    {
+//        for (int sort = 0; sort < array.Length - 1; sort++)
+//        {
+//            if (array[sort] > array[sort + 1])
+//            {
+//                temp = array[sort + 1];
+//                array[sort + 1] = array[sort];
+//                array[sort] = temp;
+//            }
+//        }
+//    }
 
-    return array;
-}
+//    return array;
+//}
+
+HashTable hashTable = new HashTable();
+hashTable.Set("Nick", "867-5309");
+hashTable.Set("Keller", "234-333-3456");
+hashTable.Set("Car", "234-321-3456");
+hashTable.Set("Ummmmm23m", "333-333-3456");
+hashTable.Set("Keller2", "234-555-3456");
+
+Console.WriteLine(hashTable.Get("Nick"));
+Console.WriteLine(hashTable.Get("Keller"));
+Console.WriteLine(hashTable.Get("Car"));
+Console.WriteLine(hashTable.Get("Ummm"));
+Console.WriteLine(hashTable.Get("Keller2"));
